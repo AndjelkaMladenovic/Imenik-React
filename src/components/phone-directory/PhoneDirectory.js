@@ -8,7 +8,7 @@ function PhoneDirectory(props) {
             <div id="all-contacts" className="contacts-container">
                 <div id="all-contacts-container">
                     <span className="no-contacts">No Contacts</span>
-                    <AllContacts contacts={props.contacts} onContactClick={props.onContactClick} onDeleteContact={props.onDeleteContact}></AllContacts>
+                    <AllContacts contacts={props.contacts} onContactClick={props.onContactClick} onDeleteContact={props.onDeleteContact}/>
                 </div>
             </div>
         </div>

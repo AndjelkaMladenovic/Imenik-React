@@ -12,9 +12,6 @@ class Directory {
         if(contact.phone.length >10){
             return [];
         }
-        // if (event.charCode < 47 || event.charCode > 57) {
-        //     return [];
-        // }
         this.contacts.push(contact);
         this.saveToLocalStorage();
 
